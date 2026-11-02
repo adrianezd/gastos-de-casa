@@ -1,0 +1,12 @@
+{
+  "name": "Gastos de casa",
+  "short_name": "Gastos",
+  "description": "Hoja de gastos por mes y por persona, con gastos fijos que se repiten solos y variables.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f2f1ec",
+  "theme_color": "#f2f1ec",
+  "lang": "es",
+  "icons": [{ "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}
