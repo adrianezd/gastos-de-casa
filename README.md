@@ -7,5 +7,7 @@ Sitio: https://adrianezd.github.io/gastos-de-casa/
 - **Mes**: dos hojas, Fijos y Variables. Se escribe directamente en las celdas; la fila de abajo crea una nueva. Enter baja a la fila siguiente. El importe admite sumas (`12,5+8`).
 - **Fijos**: se repiten solos cada mes (o cada 2, 3, 6 o 12) desde el mes en que se crean. Cambiar el importe cuenta desde ese mes; quitarlo lo quita desde ese mes y los anteriores lo conservan. Casilla de pagado por mes.
 - **Personas**: cada gasto es de una persona o compartido (a partes iguales). Filtro por persona y reparto del mes.
+- **Deseos**: lista de cosas que quieres con precio, enlace opcional a la tienda y prioridad (me hace falta, me apetece, algún día). Al marcarla como comprada se apunta sola como gasto variable del mes; Devolver la quita.
 - **Año**: tabla de los 12 meses por persona, por tipo o por categoría, con total y media. Los meses que faltan cuentan solo los fijos previstos. Exporta a CSV para Excel.
-- Datos en localStorage (`gastos-de-casa-v1`). Copia de seguridad en JSON desde Ajustes.
+- En el móvil las filas de la hoja se ven como tarjetas; en pantallas grandes, hoja a la izquierda y resumen a la derecha.
+- Datos en localStorage (`gastos-de-casa-v1`, con `deseos` desde la v2). Copia de seguridad en JSON desde Ajustes.
